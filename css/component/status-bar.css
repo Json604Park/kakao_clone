@@ -6,10 +6,19 @@
 .status-bar {
   display: flex; /* Flex 아이템은 가로로 배치되며 Width만큼 차지함 */
   justify-content: right; /* 가운데(가로) 정렬    cf. align (세로)*/
-  padding: 5px 1px; /* 위아래, 좌우 */
+  padding: 5px 0px; /* 위아래, 좌우 */
 }
 
 .status-bar_column {
-  width: 7%;
-  align-items: center;
+  width: 5%;
+}
+
+.btn {
+  border: none;
+  background: none;
+  padding: 1px 1px;
+  color: rgb(173, 161, 47);
+}
+.btn:hover {
+  color: rgb(48, 48, 48);
 }
