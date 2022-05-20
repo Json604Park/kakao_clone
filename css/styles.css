@@ -1,0 +1,8 @@
+@import "component/status-bar.css";
+@import "component/logo.css";
+@import "component/login.css";
+
+body {
+  background-color: rgb(255, 235, 51);
+  color: rgb(121, 114, 49);
+}

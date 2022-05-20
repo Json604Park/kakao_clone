@@ -1,0 +1,15 @@
+/* CSS 적용법 
+1) #아이디 { 속성1 : 속성값, 속성2 : 속성값; }
+2) .클래스명 { 속성1 : 속성값, 속성2 : 속성값; }
+*/
+
+.status-bar {
+  display: flex; /* Flex 아이템은 가로로 배치되며 Width만큼 차지함 */
+  justify-content: right; /* 가운데(가로) 정렬    cf. align (세로)*/
+  padding: 5px 1px; /* 위아래, 좌우 */
+}
+
+.status-bar_column {
+  width: 7%;
+  align-items: center;
+}
