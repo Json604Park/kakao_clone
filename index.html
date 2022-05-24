@@ -23,12 +23,19 @@
     </div>
     <form action="chatList.html" method="get" id="loginForm">
       <input
-        name="userID"
+        required
+        id="userID"
         type="text"
         placeholder="계정(이메일 또는 전화번호)"
       />
-      <input name="userPW" type="password" placeholder="비밀번호" />
-      <input type="submit" value="로그인" />
+      <input
+        required
+        minlength="8"
+        id="userPW"
+        type="password"
+        placeholder="비밀번호"
+      />
+      <input class="loginBtn" type="submit" value="로그인" />
       <label for="autoLogin"
         ><input type="checkbox" id="autoLogin" checked />자동로그인
         <button class="btn"><i class="fa-solid fa-circle-question"></i></button
@@ -44,5 +51,6 @@
       src="https://kit.fontawesome.com/787074e497.js"
       crossorigin="anonymous"
     ></script>
+    <script src="JavaScript/loginSubmit.js"></script>
   </body>
 </html>

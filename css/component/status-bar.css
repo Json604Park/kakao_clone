@@ -10,15 +10,19 @@
 }
 
 .status-bar_column {
-  width: 5%;
+  width: 6%;
+}
+
+i {
+  justify-items: center;
 }
 
 .btn {
   border: none;
   background: none;
-  padding: 1px 1px;
   color: rgb(173, 161, 47);
 }
+
 .btn:hover {
   color: rgb(48, 48, 48);
 }

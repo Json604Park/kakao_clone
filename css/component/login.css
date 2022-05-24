@@ -17,12 +17,17 @@
   color: rgba(202, 191, 202, 0.8);
 }
 
-#loginForm input[type="submit"] {
+.loginBtn {
   border: 1px solid rgb(242, 242, 242);
   background-color: rgb(246, 246, 246);
   color: rgba(202, 191, 202, 0.8);
   padding: 15px 0px;
   margin: 5px 0px;
+}
+
+.loginBtnActive {
+  background-color: rgb(66, 54, 48);
+  color: white;
 }
 
 #loginForm label {
