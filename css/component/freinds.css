@@ -1,0 +1,49 @@
+body {
+  background-color: white;
+  margin: 0px 0px;
+}
+.sideBar {
+  width: 18%;
+  height: 97.3%;
+  background-color: rgb(236, 236, 237);
+  color: rgb(172, 173, 177);
+
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+}
+.menuTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50%;
+  margin: 0px 0px;
+}
+.menuTop > div {
+  margin-top: 30px;
+}
+.menuBot {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50%;
+  margin: 0px 0px;
+}
+.menuBot > div {
+  margin-bottom: 30px;
+}
+.freinds {
+  margin-left: 18%;
+  height: 97.3%;
+}
+.freinds_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.freinds_header_item {
+  margin: auto 10px;
+}

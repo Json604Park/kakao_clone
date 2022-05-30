@@ -5,16 +5,15 @@
 
 .status-bar {
   display: flex; /* Flex 아이템은 가로로 배치되며 Width만큼 차지함 */
-  justify-content: right; /* 가운데(가로) 정렬    cf. align (세로)*/
+  justify-content: flex-end; /* 가운데(가로) 정렬    cf. align (세로)*/
   padding: 5px 0px; /* 위아래, 좌우 */
+  height: 1.5%;
 }
 
 .status-bar_column {
-  width: 6%;
-}
-
-i {
-  justify-items: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .btn {
