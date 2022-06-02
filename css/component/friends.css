@@ -1,43 +1,13 @@
+@import "sideBar.css";
+@import "mainFrame.css";
+
 body {
   background-color: white;
   margin: 0px 0px;
 }
-.sideBar {
-  width: 18%;
-  height: 100%;
-  background-color: rgb(236, 236, 237);
-  color: rgb(172, 173, 177);
 
-  display: flex;
-  flex-direction: column;
-
-  position: fixed;
-  /* position: absolute; */
-}
-.menuTop {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  height: 50%;
-  margin: 0px 0px;
-}
-.menuTop > div {
-  margin-top: 40px;
-}
-.menuBot {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  height: 50%;
-  margin: 0px 0px;
-}
-.menuBot > div {
-  margin-bottom: 30px;
-}
-.friends {
-  margin-left: 18%;
+/* .friends {
+  margin-left: 15%;
   height: 100%;
 }
 .friends_header {
@@ -52,7 +22,7 @@ body {
 .friends_header_btn {
   border: none;
   background: none;
-}
+} */
 
 .userProfile {
   display: flex;
@@ -74,7 +44,7 @@ body {
 }
 
 .friends_list_section {
-  margin-left: 10px;
+  margin-left: 20px;
   border-bottom: 1px solid rgb(242, 242, 242);
 }
 .section_label {
@@ -82,12 +52,12 @@ body {
   padding: 10px 0px;
   color: rgb(127, 127, 127);
 }
+
 .friendsProfile {
-  margin: 10px 0px;
+  margin: 20px 0px;
   display: flex;
   align-items: center;
 }
-
 .friendsImg {
   height: 55px;
   width: 55px;
@@ -96,14 +66,4 @@ body {
 }
 .friendsName {
   margin-left: 10px;
-}
-.sideBar_btn {
-  border: none;
-  background: none;
-
-  color: rgb(172, 173, 177);
-}
-
-#sideBar_btn_now {
-  color: rgb(52, 55, 64);
 }

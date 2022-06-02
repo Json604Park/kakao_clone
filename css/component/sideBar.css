@@ -1,0 +1,45 @@
+.sideBar {
+  width: 15%;
+  height: 100%;
+  background-color: rgb(236, 236, 237);
+  color: rgb(172, 173, 177);
+
+  display: flex;
+  flex-direction: column;
+
+  position: fixed;
+  /* position: absolute; */
+}
+.menuTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50%;
+  margin: 0px 0px;
+}
+.menuTop > div {
+  margin-top: 40px;
+}
+.menuBot {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50%;
+  margin: 0px 0px;
+}
+.menuBot > div {
+  margin-bottom: 30px;
+}
+
+.sideBar_btn {
+  border: none;
+  background: none;
+
+  color: rgb(172, 173, 177);
+}
+
+#sideBar_btn_now {
+  color: rgb(52, 55, 64);
+}
