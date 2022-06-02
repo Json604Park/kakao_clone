@@ -16,12 +16,12 @@
   align-items: center;
 }
 
-.btn {
+.stauts-bar_btn {
   border: none;
   background: none;
   color: rgb(173, 161, 47);
 }
 
-.btn:hover {
+.status-bar_btn:hover {
   color: rgb(48, 48, 48);
 }

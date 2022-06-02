@@ -10,9 +10,21 @@
   <body>
     <div class="sideBar">
       <div class="menuTop">
-        <div><i class="fa-solid fa-user-large fa-2x"></i></div>
-        <div><i class="fa-solid fa-comment fa-2x"></i></div>
-        <div><i class="fa-solid fa-ellipsis fa-2x"></i></div>
+        <div>
+          <a class="sideBar_btn" id="sideBar_btn_now" href="friendList.html">
+            <i class="fa-solid fa-user-large fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <a class="sideBar_btn" href="chatList.html">
+            <i class="fa-solid fa-comment fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <a class="sideBar_btn" href="more.html">
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </div>
       </div>
       <div class="menuBot">
         <div><i class="fa-solid fa-face-smile"></i></div>
@@ -25,22 +37,30 @@
     <div class="friends">
       <div class="status-bar">
         <div class="status-bar_column">
-          <button class="btn">
+          <button class="stauts-bar_btn">
             <i class="fa-solid fa-window-minimize"></i>
           </button>
         </div>
         <div class="status-bar_column">
-          <button class="btn"><i class="fa-regular fa-square"></i></button>
+          <button class="stauts-bar_btn">
+            <i class="fa-regular fa-square"></i>
+          </button>
         </div>
         <div class="status-bar_column">
-          <button class="btn"><i class="fa-solid fa-xmark"></i></button>
+          <button class="stauts-bar_btn">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
         </div>
       </div>
       <div class="friends_header">
         <h2 class="friends_header_item">친구</h2>
         <div class="friends_header_item">
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <i class="fa-solid fa-user-plus"></i>
+          <button class="friends_header_btn">
+            <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+          </button>
+          <button class="friends_header_btn">
+            <i class="fa-solid fa-user-plus fa-xl"></i>
+          </button>
         </div>
       </div>
 
@@ -55,6 +75,7 @@
 
       <div class="friends_list_section">
         <div class="section_label">내 멀티프로필</div>
+        <i class="fas fa-chevron-up fa-xs" aria-hidden="true"></i>
         <div class="friendsProfile">
           <div>
             <img class="friendsImg" src="img/multiImg.jpg" alt="" />
