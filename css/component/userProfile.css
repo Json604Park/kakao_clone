@@ -1,0 +1,19 @@
+
+.userProfile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(242, 242, 242);
+  }
+  
+  .userImg {
+    height: 80px;
+    width: 80px;
+    border-radius: 33px;
+  }
+  .userName {
+    margin-left: 10px;
+  }

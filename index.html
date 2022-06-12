@@ -1,20 +1,22 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="css/component/login.css" />
-    <link rel="stylesheet" href="css/component/status-bar.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KAKAO Clone by JSON</title>
   </head>
   <body>
-    <div class="status-bar">
-      <div class="status-bar_column">
-        <button class="stauts-bar_btn"><i class="fa-solid fa-gear"></i></button>
-        <button class="stauts-bar_btn">
+    <div class="standard-bar">
+      <div class="standard-bar_button">
+        <button class="standard-bar_button_item button">
+          <i class="fa-solid fa-gear"></i>
+        </button>
+        <button class="standard-bar_button_item button">
           <i class="fa-solid fa-window-minimize"></i>
         </button>
-        <button class="stauts-bar_btn">
+        <button class="standard-bar_button_item button">
           <i class="fa-solid fa-xmark"></i>
         </button>
       </div>
@@ -39,10 +41,10 @@
       <input class="loginBtn" type="submit" value="로그인" />
       <label for="autoLogin"
         ><input type="checkbox" id="autoLogin" checked />자동로그인
-        <button class="btn"><i class="fa-solid fa-circle-question"></i></button
+        <button class="question_button button"><i class="fa-solid fa-circle-question"></i></button
       ></label>
     </form>
-    <div class="userServices">
+    <div class="additionalLogInServices">
       <a href="#">KAKAO계정 찾기</a>
       <a>|</a>
       <a href="#">비밀번호 재설정</a>
