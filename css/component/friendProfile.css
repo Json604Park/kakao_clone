@@ -1,0 +1,20 @@
+
+.friendsProfile {
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+.friendsImg {
+    height: 55px;
+    width: 55px;
+    border-radius: 23px;
+    border-color: rgb(242, 242, 242);
+}
+.friendsName {
+    margin-left: 10px;
+}
+.friendsMsg {
+    color: rgb(121, 114, 49);
+    font-size: 13px;
+}
+  
