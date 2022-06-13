@@ -1,7 +1,7 @@
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/component/friends.css" />
-    <link rel="stylesheet" href="css/styles.css" />son
+    <link rel="stylesheet" href="css/screens/friendList.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,26 +27,26 @@
         </div>
       </div>
       <div class="menuBot">
-        <div><i class="fa-solid fa-face-smile"></i></div>
-        <div><i class="fa-solid fa-bell"></i></div>
-        <div><i class="fa-solid fa-gear"></i></div>
+        <div class="buttonClick"><i class="fa-solid fa-face-smile"></i></div>
+        <div class="buttonClick"><i class="fa-solid fa-bell"></i></div>
+        <div class="buttonClick"><i class="fa-solid fa-gear"></i></div>
       </div>
     </div>
 
     <div class="main">
       <div class="standard-bar">
         <div class="standard-bar_button">
-          <button class="standard-bar_button_item button">
+          <button class="standard-bar_button_item button buttonClick">
             <i class="fa-regular fa-window-minimize"></i>
           </button>
         </div>
         <div class="standard-bar_button">
-          <button class="standard-bar_button_item button">
+          <button class="standard-bar_button_item button buttonClick">
             <i class="fa-regular fa-square"></i>
           </button>
         </div>
         <div class="standard-bar_button">
-          <button class="standard-bar_button_item button">
+          <button class="standard-bar_button_item button buttonClick">
             <i class="fa-solid fa-xmark"></i>
           </button>
         </div>
@@ -54,16 +54,16 @@
       <div class="main_header">
         <h2 class="main_header_item">친구</h2>
         <div class="main_header_item">
-          <button class="main_header_btn">
+          <button class="main_header_btn buttonClick">
             <i class="fa-solid fa-magnifying-glass fa-xl"></i>
           </button>
-          <button class="main_header_btn">
+          <button class="main_header_btn buttonClick">
             <i class="fa-solid fa-user-plus fa-xl"></i>
           </button>
         </div>
       </div>
 
-      <div class="userProfile">
+      <div class="userBox">
         <div>
           <img class="userImg" src="img/userImg.jpg" alt="" />
         </div>
@@ -72,9 +72,9 @@
         </div>
       </div>
 
-      <div class="friends_list_section">
+      <div class="list_section">
         <div class="section_label">내 멀티프로필</div>
-        <div class="friendsProfile">
+        <div class="friendBox">
           <div>
             <img class="friendsImg" src="img/multiImg.jpg" alt="" />
           </div>
@@ -83,9 +83,9 @@
           </div>
         </div>
       </div>
-      <div class="friends_list_section">
+      <div class="list_section">
         <div class="section_label">생일인 친구</div>
-        <a class="friendsProfile" href="chatNew.html">
+        <a class="friendBox" href="chatNew.html">
           <div>
             <img class="friendsImg" src="img/userImg.jpg" alt="" />
           </div>
@@ -94,9 +94,9 @@
           </div>
         </a>
       </div>
-      <div class="friends_list_section">
+      <div class="list_section">
         <div class="section_label">업데이트한 친구</div>
-        <a class="friendsProfile" href="chatNew.html">
+        <a class="friendBox" href="chatNew.html">
           <div>
             <img class="friendsImg" src="img/userImg.jpg" alt="" />
           </div>
@@ -105,9 +105,9 @@
           </div>
         </a>
       </div>
-      <div class="friends_list_section">
+      <div class="list_section">
         <div class="section_label">즐겨찾기</div>
-        <a class="friendsProfile" href="chatNew.html">
+        <a class="friendBox" href="chatNew.html">
           <div>
             <img class="friendsImg" src="img/userImg.jpg" alt="" />
           </div>
@@ -116,12 +116,12 @@
           </div>
         </a>
       </div>
-      <div class="friends_list_section">
+      <div class="list_section">
         <div class="section_label">채널</div>
       </div>
-      <div class="friends_list_section">
+      <div class="list_section">
         <div class="section_label">친구</div>
-        <a class="friendsProfile" href="chatNew.html">
+        <a class="friendBox" href="chatNew.html">
           <div>
             <img class="friendsImg" src="img/userImg.jpg" alt="" />
           </div>
@@ -129,7 +129,7 @@
             <h5>서무돌</h5>
           </div>
         </a>
-        <a class="friendsProfile" href="chatNew.html">
+        <a class="friendBox" href="chatNew.html">
           <div>
             <img class="friendsImg" src="img/userImg.jpg" alt="" />
           </div>
@@ -137,7 +137,7 @@
             <h5>허남준</h5>
           </div>
         </a>
-        <a class="friendsProfile" href="chatNew.html">
+        <a class="friendBox" href="chatNew.html">
           <div>
             <img class="friendsImg" src="img/userImg.jpg" alt="" />
           </div>
@@ -145,7 +145,7 @@
             <h5>원정용</h5>
           </div>
         </a>
-        <a class="friendsProfile" href="chatNew.html">
+        <a class="friendBox" href="chatNew.html">
           <div>
             <img class="friendsImg" src="img/userImg.jpg" alt="" />
           </div>
@@ -160,4 +160,5 @@
     src="https://kit.fontawesome.com/787074e497.js"
     crossorigin="anonymous"
   ></script>
+  <script src="JavaScript/buttonClick.js"></script>
 </html>

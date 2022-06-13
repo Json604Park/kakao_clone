@@ -1,0 +1,16 @@
+.friendBox {
+  height: 60px;
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+}
+.friendsImg {
+  height: 55px;
+  width: 55px;
+  border-radius: 23px;
+  border-color: rgb(242, 242, 242);
+}
+.friendsName {
+  margin: 0px 0px;
+  margin-left: 10px;
+}

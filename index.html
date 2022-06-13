@@ -1,6 +1,6 @@
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/component/login.css" />
+    <link rel="stylesheet" href="css/screens/login.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,13 +10,13 @@
   <body>
     <div class="standard-bar">
       <div class="standard-bar_button">
-        <button class="standard-bar_button_item button">
+        <button class="standard-bar_button_item button buttonClick">
           <i class="fa-solid fa-gear"></i>
         </button>
-        <button class="standard-bar_button_item button">
+        <button class="standard-bar_button_item button buttonClick">
           <i class="fa-solid fa-window-minimize"></i>
         </button>
-        <button class="standard-bar_button_item button">
+        <button class="standard-bar_button_item button buttonClick">
           <i class="fa-solid fa-xmark"></i>
         </button>
       </div>
@@ -41,13 +41,14 @@
       <input class="loginBtn" type="submit" value="로그인" />
       <label for="autoLogin"
         ><input type="checkbox" id="autoLogin" checked />자동로그인
-        <button class="question_button button"><i class="fa-solid fa-circle-question"></i></button
+        <button class="question_button button buttonClick">
+          <i class="fa-solid fa-circle-question"></i></button
       ></label>
     </form>
     <div class="additionalLogInServices">
-      <a href="#">KAKAO계정 찾기</a>
+      <a href="#" class="buttonClick">KAKAO계정 찾기</a>
       <a>|</a>
-      <a href="#">비밀번호 재설정</a>
+      <a href="#" class="buttonClick">비밀번호 재설정</a>
     </div>
     <!--font awesume CDN  -->
     <script
@@ -55,5 +56,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="JavaScript/loginSubmit.js"></script>
+    <script src="JavaScript/buttonClick.js"></script>
   </body>
 </html>

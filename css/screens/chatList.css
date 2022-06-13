@@ -1,0 +1,12 @@
+body {
+  background-color: white;
+  margin: 0px 0px;
+}
+
+.previewMsg {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  margin-top: 8px;
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}

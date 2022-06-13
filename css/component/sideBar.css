@@ -1,16 +1,15 @@
 .sideBar {
-  width: 15%;                                /* Side Bar 차지 비율 */
+  width: 15%; /* Side Bar 차지 비율 */
   height: 100%;
   background-color: rgb(236, 236, 237);
   color: rgb(172, 173, 177);
 
-  display: flex;                            /* menuTop / menuBot 배치 설정 -> 세로 */
+  display: flex; /* menuTop / menuBot 배치 설정 -> 세로 */
   flex-direction: column;
 
-  position: fixed;                          /* Side Bar 고정 -> 스크롤 시 이동하지 않음 */
+  position: fixed; /* Side Bar 고정 -> 스크롤 시 이동하지 않음 */
   /* position: absolute; */
 }
-
 
 /* --------------- Side bar 위쪽 ---------------  */
 .menuTop {
@@ -37,7 +36,6 @@
 .menuBot > div {
   margin-bottom: 30px;
 }
-
 
 /* --------------- Side bar 버튼 전체 ---------------  */
 .sideBar_btn {
