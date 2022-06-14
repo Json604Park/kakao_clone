@@ -1,9 +1,92 @@
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="css/screens/more.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div class="sideBar">
+      <div class="menuTop">
+        <div>
+          <a class="sideBar_btn" href="friendList.html">
+            <i class="fa-solid fa-user-large fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <a class="sideBar_btn" href="chatList.html">
+            <i class="fa-solid fa-comment fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <a class="sideBar_btn" id="sideBar_btn_now" href="more.html">
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </div>
+      </div>
+      <div class="menuBot">
+        <div class="buttonClick"><i class="fa-solid fa-face-smile"></i></div>
+        <div class="buttonClick"><i class="fa-solid fa-bell"></i></div>
+        <div class="buttonClick"><i class="fa-solid fa-gear"></i></div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="standard-bar">
+        <div class="standard-bar_button">
+          <button class="standard-bar_button_item button buttonClick">
+            <i class="fa-regular fa-window-minimize"></i>
+          </button>
+        </div>
+        <div class="standard-bar_button">
+          <button class="standard-bar_button_item button buttonClick">
+            <i class="fa-regular fa-square"></i>
+          </button>
+        </div>
+        <div class="standard-bar_button">
+          <button class="standard-bar_button_item button buttonClick">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+      <div class="main_header">
+        <h2 class="main_header_item">더보기</h2>
+      </div>
+      <!-- <div class="list_section"></div> -->
+      <div class="userInfo_top">
+        <div class="userName">박지성</div>
+        <div class="userName">king@naver.com</div>
+      </div>
+      <div class="userInfo_bot">
+        <div class="userName">My 구독</div>
+      </div>
+      <div class="otherItems">
+        <div class="icon_row">
+          <div class="icon_row_item">
+            <i class="fa-regular fa-envelope"></i>
+            <span>메일</span>
+          </div>
+          <div class="icon_row_item">
+            <i class="far fa-calendar"></i>
+            <span>캘린더</span>
+          </div>
+          <div class="icon_row_item">
+            <i class="fa-solid fa-box"></i>
+            <span>서랍</span>
+          </div>
+          <div class="icon_row_item">
+            <i class="fa-regular fa-face-grin-wide"></i>
+            <span>이모티콘</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/787074e497.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="JavaScript/buttonClick.js"></script>
 </html>
