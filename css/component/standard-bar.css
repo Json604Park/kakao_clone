@@ -3,24 +3,23 @@
 2) .클래스명 { 속성1 : 속성값, 속성2 : 속성값; }
 */
 
-
 .standard-bar {
-  display: flex;             /* Flex 아이템은 가로로 배치되며 Width만큼 차지함 */
+  display: flex; /* Flex 아이템은 가로로 배치되며 Width만큼 차지함 */
   justify-content: flex-end; /* 가운데(가로) 정렬    cf. align (세로)*/
-  padding: 5px 0px;          /* 위아래, 좌우 */
-  height: 1.5%;              /* standard-bar 범위 */
+  padding: 5px 0px; /* 위아래, 좌우 */
+  height: 1.5%; /* standard-bar 범위 */
 }
 
 .standard-bar_button {
-  display: flex;             /* _button_item display 방식 */
+  display: flex; /* _button_item display 방식 */
   justify-content: flex-end; /* _button_item 정렬 방식  -> 뒤쪽으로 */
-  align-items: center;       /* _button_item 높낮이 가운데*/
+  align-items: center; /* _button_item 높낮이 가운데*/
 }
 
 .standard-bar_button_item {
   /* border: none;              
-  /* background: none;          
-  /*color: rgb(173, 161, 47);/* _button_item 버튼 색상 설정 */
+  /* background: none;     */
+  /* color: rgb(173, 161, 47); /* _button_item 버튼 색상 설정 */
 }
 
 .standard-bar_button_item:hover {

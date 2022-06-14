@@ -8,43 +8,61 @@
     <title>New Chat Clone by Json</title>
   </head>
   <body>
-    <header class="chatScreenHeader">
-      <div>user Img</div>
-      <div>name</div>
+    <header id="chatScrHeader">
+      <div class="header_column">
+        <img class="friendsImg" src="img/userImg.jpg" alt="" />
+      </div>
+      <div class="header_column">
+        <div class="header_row">
+          <h4 class="friendsName">이모</h4>
+          <div class="standard-bar">
+            <div class="standard-bar_button">
+              <button class="standard-bar_button_item button buttonClick">
+                <i class="fa-solid fa-gear"></i>
+              </button>
+              <button class="standard-bar_button_item button buttonClick">
+                <i class="fa-solid fa-window-minimize"></i>
+              </button>
+              <button class="standard-bar_button_item button buttonClick">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="header_row">
+          <div class="iconGroup buttonClick">
+            <i class="fa-solid fa-box-archive"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="iconGroup buttonClick">
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
     </header>
-    <main class="main-screen main-chat">
-      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
 
-      <div class="message-row">
-        <img src="https://avatars3.githubusercontent.com/u/3612017" />
-        <div class="message-row__content">
-          <span class="message__author">Nicolas</span>
-          <div class="message__info">
-            <span class="message__bubble">Hi!</span>
-            <span class="message__time">21:27</span>
-          </div>
-        </div>
-      </div>
+    <main></main>
 
-      <div class="message-row message-row--own">
-        <div class="message-row__content">
-          <div class="message__info">
-            <span class="message__bubble">Hi nice to meet you!</span>
-            <span class="message__time">21:27</span>
-          </div>
-        </div>
-      </div>
-    </main>
     <form class="reply">
-      <div class="reply_column">
-        <!-- <i class="far fa-plus-square fa-lg"></i> -->
-        <input type="text" placeholder="Write a message..." />
+      <div class="reply_row">
+        <div class="reply_column">
+          <input type="text" />
+        </div>
+        <div class="reply_column">
+          <button class="buttonClick">전송</button>
+        </div>
       </div>
-      <div class="reply_column">
-        <!-- <i class="far fa-smile-wink fa-lg"></i> -->
-        <button>
-          <i class="fas fa-arrow-up"></i>
-        </button>
+      <div class="reply_row">
+        <div class="reply_column buttonClick">
+          <i class="fa-regular fa-face-smile"></i>
+          <i class="fa-solid fa-robot"></i>
+          <i class="fa-solid fa-paperclip"></i>
+          <i class="fa-regular fa-square"></i>
+        </div>
+        <div class="reply_column">
+          <input type="range" min="1" max="100" value="100" />
+        </div>
       </div>
     </form>
   </body>
@@ -52,4 +70,5 @@
     src="https://kit.fontawesome.com/787074e497.js"
     crossorigin="anonymous"
   ></script>
+  <script src="JavaScript/buttonClick.js"></script>
 </html>
